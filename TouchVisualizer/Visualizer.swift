@@ -179,6 +179,8 @@ extension Visualizer {
                 }
                 
                 log(touch)
+            @unknown default:
+                break
             }
         }
     }
