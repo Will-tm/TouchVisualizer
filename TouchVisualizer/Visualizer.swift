@@ -212,6 +212,8 @@ extension Visualizer {
             case .stationary: phase = "S"
             case .ended: phase = "E"
             case .cancelled: phase = "C"
+            @unknown default:
+                break
             }
             
             let x = String(format: "%.02f", view.center.x)
