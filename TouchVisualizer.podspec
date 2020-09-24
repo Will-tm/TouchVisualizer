@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/morizotter/TouchVisualizer"
   s.license          = 'MIT'
   s.author           = { "Naoki Morita" => "namorit@gmail.com" }
-  s.source           = { :git => "https://github.com/msedd/TouchVisualizer", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Will-tm/TouchVisualizer", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/morizotter'
 
   s.platform     = :ios, '9.0'
